@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedIdentityDemo.API", "ManagedIdentityDemo.API\ManagedIdentityDemo.API.csproj", "{497BC7C8-8F5C-4758-BB69-AAB01D64ABA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{09DA4F1C-7397-4AD7-8844-91CAABAD4F16}"
+	ProjectSection(SolutionItems) = preProject
+		infrastructure\terraform.tf = infrastructure\terraform.tf
+		infrastructure\main.tf = infrastructure\main.tf
+		infrastructure\variables.tf = infrastructure\variables.tf
+		infrastructure\cosmosdb.tf = infrastructure\cosmosdb.tf
+		infrastructure\providers.tf = infrastructure\providers.tf
+		infrastructure\locals.tf = infrastructure\locals.tf
+		infrastructure\entra_id.tf = infrastructure\entra_id.tf
+		infrastructure\outputs.tf = infrastructure\outputs.tf
+		infrastructure\app-service.tf = infrastructure\app-service.tf
+		infrastructure\commands.sh = infrastructure\commands.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "diagrams", "diagrams", "{C3E2300B-FA7B-4F98-A314-D17A5E6C45E6}"
+	ProjectSection(SolutionItems) = preProject
+		diagrams\run.sh = diagrams\run.sh
+		diagrams\workspace.dsl = diagrams\workspace.dsl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497BC7C8-8F5C-4758-BB69-AAB01D64ABA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497BC7C8-8F5C-4758-BB69-AAB01D64ABA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497BC7C8-8F5C-4758-BB69-AAB01D64ABA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497BC7C8-8F5C-4758-BB69-AAB01D64ABA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

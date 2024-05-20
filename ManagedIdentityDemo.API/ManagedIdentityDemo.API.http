@@ -1,0 +1,7 @@
+@host = http://localhost:5147
+
+GET {{host}}/customers/
+Accept: application/json
+
+###
+
